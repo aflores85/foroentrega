@@ -1,6 +1,6 @@
 archivo de ayuda varios
 
-
+rm -rf .git 
 …or create a new repository on the command line
 echo "# forovueflask" >> README.md
 git init

@@ -3,8 +3,10 @@
   <div>
   <hola-mundo-comp></hola-mundo-comp>
   <lista-foros></lista-foros>
-  <form-foro></form-foro>
+  <h1> Dar de alta Foro </h1>
+ <form-foro></form-foro>
   <Lista-Subject></Lista-Subject>
+  <h1> Dar de alta Tema en el Foro </h1>
   <Form-Subject></Form-Subject>
   </div>
 </template>
