@@ -3,7 +3,7 @@
     <form @submit.prevent="sendSubject">
       <input type="text" v-model="title" />
       <input type="text" v-model="content" />
-      <input type="text" v-model="foro" />
+      <input type="text" v-model="foro_id" />
       <button type="submit">Nuevo Subject</button>
     </form>
   </div>
@@ -16,7 +16,7 @@ export default {
     return {
       title: "",
       content: "",
-      foro:"",
+      foro_id:"",
     };
   },
   methods: {
@@ -29,7 +29,7 @@ export default {
         body: JSON.stringify({
           title: this.title,
           content: this.content,
-          foro:this.foro,
+          foro_id:this.foro_id,
         }),
       })
         .then((response) => response.json())

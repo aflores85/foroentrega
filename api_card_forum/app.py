@@ -117,7 +117,7 @@ def get_subject():
              'id': subject.id,
              'content': subject.content
             })
-    return jsonify({'posts': subject_list, 'message': 'Posts fetched successfully'})
+    return jsonify({'subject': subject_list, 'message': 'Posts fetched successfully'})
 
 
 @app.route('/api/v1/getPosts', methods=['GET'])
