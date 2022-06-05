@@ -2,15 +2,15 @@
 <template>
   <div>
   
-  <header style="background-color:blanchedalmond;">
+  <header style="text-align:center;">
   <hola-mundo-comp></hola-mundo-comp>
   </header>
-  <lista-foros></lista-foros>
-  <h1> Dar de alta Foro </h1>
+    <h2> Dar de alta Foro </h2>
   <form-foro></form-foro>
-  <h2> Dar de alta Tema en el Foro </h2>
+  <h3> Dar de alta Tema en el Foro </h3>
   <Form-Subject></Form-Subject>
-  <Lista-Subject></Lista-Subject>
+  <h4 style="background-color:darkolivegreen"> <lista-foros></lista-foros></h4>
+  <Lista-Subject style="background-color:darkgrey"></Lista-Subject>
   </div>
   
 

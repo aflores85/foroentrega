@@ -1,9 +1,9 @@
 <template>
   <div>
     <form @submit.prevent="sendSubject">
-      <input type="text" v-model="title" />
-      <input type="text" v-model="content" />
-      <input type="text" v-model="foro_id" />
+      <input type="text" v-model="title" placeholder="Ingrese Titulo del tema" />
+      <input type="text" v-model="content" placeholder="Ingrese contenido del tema"/>
+      <input type="text" v-model="foro_id" placeholder="Ingrese el id del foro"/>
       <button type="submit">Nuevo Subject</button>
     </form>
   </div>

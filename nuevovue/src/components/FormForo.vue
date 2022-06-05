@@ -1,8 +1,8 @@
 <template>
   <div>
     <form @submit.prevent="sendForo">
-      <input type="text" v-model="title" />
-      <input type="text" v-model="content" />
+      <input type="text" v-model="title" placeholder="Ingrese Titulo del foro" />
+      <input type="text" v-model="content" placeholder="Ingrese contenido del foro" />
       <button type="submit">Nuevo Foro</button>
     </form>
   </div>
