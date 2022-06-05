@@ -102,7 +102,7 @@ def get_foro():
         foros_list.append(
             {'title': foros.title,
              'id': foros.id,
-             'content': foros.content           
+             'content': foros.content,          
              })
     return jsonify({'foros': foros_list, 'message': 'foros fetched successfully'})
 
@@ -115,9 +115,10 @@ def get_subject():
         subject_list.append(
             {'title': subject.title,
              'id': subject.id,
-             'content': subject.content
+             'content': subject.content,
+             'foro_id': subject.foro_id
             })
-    return jsonify({'subject': subject_list, 'message': 'Posts fetched successfully'})
+    return jsonify({'Subject': subject_list, 'message': 'subject fetched successfully'})
 
 
 @app.route('/api/v1/getPosts', methods=['GET'])

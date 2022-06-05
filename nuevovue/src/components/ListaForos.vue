@@ -2,7 +2,7 @@
   <div>
     <h1>Listado de Foros Activos</h1>
   <ul v-for="(foro, index) in foros" :key="index">
-    <li>{{ foro }}</li>
+    <li>Identificador: {{ foro.id }},Titulo del Foro: {{ foro.content }}</li>
   </ul>
   </div>
 </template>

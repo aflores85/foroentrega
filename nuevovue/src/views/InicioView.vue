@@ -1,7 +1,10 @@
 
 <template>
   <div>
+  
+  <header style="background-color:blanchedalmond;">
   <hola-mundo-comp></hola-mundo-comp>
+  </header>
   <lista-foros></lista-foros>
   <h1> Dar de alta Foro </h1>
   <form-foro></form-foro>
@@ -9,7 +12,10 @@
   <Form-Subject></Form-Subject>
   <Lista-Subject></Lista-Subject>
   </div>
+  
+
 </template>
+
 
 <script>
 import HolaMundoComp from "../components/HolaMundoComp";
